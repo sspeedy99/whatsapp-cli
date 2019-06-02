@@ -1,6 +1,7 @@
 # whatsapp-cli
 
 Command line interface of whatsapp web in the terminal (Unofficial).
+This works with selenium-webdriver to login to whatsapp web interface and search the reciever name.
 
 ### Features
 
