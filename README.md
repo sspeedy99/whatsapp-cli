@@ -23,7 +23,11 @@ This works with selenium-webdriver to login to whatsapp web interface and search
 4.  Activate the virtual environment `$ source whatsapp/bin/activate`
 5.  Install selenium. `$ sudo pip3 install selenium`
 6.  Download and extract [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads).zip
-7.  Put path to ChromeDriver executable in the line `'chromedriver_path': '/path/to/chromedriver'` in `chat.py` file of this repository.  
+7.  Put path to ChromeDriver executable in the line `'chromedriver_path': '/path/to/chromedriver'` in `chat.py` file of this repository.
+
+## Related Repository
+In order to not reinvent the wheel, some of the stuff and generic ideas are taken from here. </br>
+[WhatsApp Bot](https://github.com/harshitsidhwa/WhatsApp-bot-selenium)
 
 ## Usage
 
@@ -66,6 +70,12 @@ config = {
 #### Exit
 
 Press `Ctrl+C` two times.
+
+### Updates
+To add Recent chats option. </br>
+Ability to see all the unread messages </br>
+Automate the activate using shell scripts </br>
+
 
 
 ### License 
