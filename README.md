@@ -27,7 +27,7 @@ This works with selenium-webdriver to login to whatsapp web interface and search
 
 ## Related Repository
 In order to not reinvent the wheel, some of the stuff and generic ideas are taken from here. </br>
-[WhatsApp Bot](https://github.com/harshitsidhwa/WhatsApp-bot-selenium)
+[WhatsApp Bot](https://github.com/harshirtsidhwa/WhatsApp-bot-selenium)
 
 ## Usage
 
@@ -39,13 +39,6 @@ In order to not reinvent the wheel, some of the stuff and generic ideas are take
 2.  Scan the QR code displayed on screen from the WhatsApp mobile app.
 3.  Press `y` in console after WhatsApp Web is done loading, to connect your phone.
 
-#### Switch to another chat
-
-`sendto <name>`
-
-1.  Type it while `chat.py` is running.
-1.  Replace `<name>` with the name of the contact/group you want to chat with now. Again, partial names will work.
-2.  You can switch between chats as many times you want. Unread messages will be displayed to you every time.
 
 #### Stop sending messages and only receive messages
 
